@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+.typcn {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Lato', Courier, monospace;
+    background-color: #fafafa;
+}
+
+header {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(90deg, rgba(221, 13, 204, 0.6), rgba(43, 172, 247, 0.6)), url("./img/anthony-delanoix-48936.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.topBar {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+    top: 0;
+    margin: 15px 40%;
+    position: absolute;
+}
+
+.topBar ul li {
+    display: inline-block;
+    margin: 3px;
+}
+
+.banner {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+nav {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.links {
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+
+.intro {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro h1 {
+    margin: 0 auto;
+    font-size: 4rem;
+}
+
+.intro h4 {
+    margin: 0.5rem auto 2rem auto;
+    color: white;
+}
+
+.intro ul {
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.button {
+    text-align: center;
+    line-height: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.intro ul li:nth-child(1) {
+    background-color: rgb(235, 235, 235);
+    color: black;
+}
+
+.intro ul li:nth-child(2) {
+    background-color: rgb(245, 80, 80);
+}
+
+.content {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+}
+
+.slider {
+    margin-top: 20px;
+    display: flex;
+}
+
+.slide {
+    width: 900px;
+    display: flex;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(44, 44, 44, 0.7)), url(http://unsplash.it/1500/500?random&gravity=west);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.textSlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 400px;
+}
+
+.textSlider h1 {
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.textSlider h4:nth-child(1) {
+    color: lightgreen;
+    font-size: 1.2rem;
+}
+
+.trending {
+    flex: 4;
+    margin-right: 8rem;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.sidePanel {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.news {
+    padding: 12px 0 15px 0;
+}
+
+.sidePanel img {
+    width: 100%;
+    padding: 15px 0 15px 0;
+}
+
+.meta {
+    padding: 12px 0 20px 0;
+    border-bottom: 2px solid rgba(165, 165, 165, 0.4);
+}
+
+.info {
+    display: inline;
+    font-size: 0.8rem;
+    color: gray;
+    line-height: 1rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.4rem;
+}
+
+.card {
+    flex: 0 1 calc(33% - 10px);
+    width: 15vw;
+    box-shadow: 0.2px 0.2px 5px grey;
+    overflow: hidden;
+    border-radius: 0.4rem;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.metaCard {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    transform: scale(0.9);
+    display: inline-block;
+}
+
+.metaCard h4:nth-child(1) {
+    display: inline-block;
+    margin-right: 0.5rem;
+    color: orange;
+    font-size: 0.7rem;
+}
+
+.card h3 {
+    margin-left: 0.5rem;
+    margin-bottom: 1.1rem;
+    font-size: 0.95rem;
+}
+
+.more {
+    list-style-type: none;
+    transform: scale(0.8);
+    margin-top: 200px;
+    background: linear-gradient(45deg, rgb(238, 13, 152), rgb(252, 41, 94));
+    margin: 0 auto;
+}
+
+.authors {
+    margin-top: 60px;
+    padding-top: 20px;
+    width: 100vw;
+    height: 600px;
+    background-color: rgb(226, 226, 226);
+}
+
+.h1Con {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.authorCon {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+}
+
+.authorCard {
+    flex: 0 1 calc(30% - 50px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 380px;
+    height: 400px;
+    background-color: white;
+}
+
+.authorCard h1 {
+    font-size: 1.4rem;
+}
+
+.authorCard:nth-child(2) {
+    background: linear-gradient(45deg, rgb(146, 29, 255), rgb(231, 46, 255));
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.authorCard:nth-child(2) h2 {
+    color: white;
+    margin: 0 auto;
+}
+
+.authorCard:nth-child(2) h1 {
+    text-align: center;
+    font-size: 2.2vw;
+    padding: 10px;
+}
+
+.author {
+    color: rgb(207, 25, 207);
+    font-size: 1rem;
+}
+
+.author:after {
+    content: " ";
+    display: block;
+    margin-top: 7px;
+    border-bottom: 1px solid rgb(207, 25, 207);
+    transform: scaleX(0.7);
+}
+
+.authorQuote:after {
+    content: " ";
+    display: block;
+    margin-top: 7px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transform: scaleX(0.7);
+}
+
+.img-cropper {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.img-cropper img {
+    width: 240px;
+    height: auto;
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.footerWraper {
+    padding-top: 20px;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerBrand {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoWrapper {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerBrand img {
+    width: auto;
+    height: 80px;
+}
+
+.footerBrand h3 {
+    flex: 0 1 80%;
+    padding: 10px;
+    color: gray;
+    font-size: 1.1vw;
+}
+
+.footerNav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid white;
+    margin-bottom: 20px;
+}
+
+.footerNav ul {
+    padding: 15px;
+    flex: 0 1 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerNav ul li {
+    margin-right: 20px;
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+.copyrights {
+    flex: 0 0 30%;
+    color: gray;
+    font-size: 1vw;
+}
+
+@media screen and (min-width: 1600px) {
+    .authorCard:nth-child(2) h1 {
+        text-align: center;
+        font-size: 1.8vw;
+        padding: 10px;
+    }
+    .footerBrand h3 {
+        flex: 0 1 80%;
+        padding: 10px;
+        color: gray;
+        font-size: 0.8vw;
+    }
+    .copyrights {
+        flex: 0 0 30%;
+        color: gray;
+        font-size: 0.7vw;
+    }
+}
